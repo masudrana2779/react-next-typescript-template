@@ -1,0 +1,71 @@
+/*----------------------------------------------------
+@File: Default Styles
+
+/*=====================================================================
+@Template Name: React Next TypeScript
+@Author: Masud Rana
+@Developed By: Masud Rana
+@Developer URL: https://www.linkedin.com/in/masudrana2779/
+@Default Styles
+/*----------------------------------------------------*/
+
+/*Base font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+//font-awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css');
+
+
+
+//-----Color
+$white : #fff;
+$brand: #FF7100;
+$dark: #1A1A1A;
+$light: #646464;
+$bgLight: #F2F2F2;
+
+
+//---- font family ----
+
+$robot: 'Roboto', sans-serif;
+$solaiman: 'solaimanlipinormal', sans-serif;
+$arial: 'arial',sans-serif;
+$kongshomjregular: 'kongshomjregular';
+$kongshomjbold: 'kongshomjbold';
+
+
+
+
+
+//  fonts size
+$p : 16px;
+$f12: 12px;
+$f13: 13px;
+$f14: 14px;
+$f15: 15px;
+$f16: 16px;
+$f18: 18px;
+$f20: 20px;
+$f22: 22px;
+$f24: 24px;
+$f26: 26px;
+$f28: 28px;
+$f30: 30px;
+$f34: 34px;
+$f40: 40px;
+$f44: 44px;
+$f48: 48px;
+$f62: 62px;
+
+
+//----a style----
+
+$a-text-decuration:			none;
+$a-color:					inherit;
+
+//----a-hover style----
+
+$a-hover-color:				inherit;

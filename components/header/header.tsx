@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
-                            <div className="headerContent">
+                            <div className="headerContent d-flex align-items-center">
                                 <div className="logo">
                                     <Link href={'/'}>
                                         <a>
@@ -38,13 +38,19 @@ const Header = () => {
                                 </div>
                                 <div className="rightSiteMenu">
                                     <ul className="menu">
-                                        <Link href="/">
-                                            <a>Home</a>
-                                        </Link>
-                                        <Link href="/about">
-                                            <a>About Us</a>
-                                        </Link>
-                                        <button className="btn btn-success">Join</button>
+                                        <li>
+                                            <Link href="/">
+                                                <a>Home</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/about">
+                                                <a>About Us</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <button className="btn btn-success">Join</button>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
