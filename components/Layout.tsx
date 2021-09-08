@@ -1,5 +1,7 @@
 import React, {FC, ReactElement} from 'react';
 import Head from "next/head";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 type LayoutProps = {
     children: ReactElement,
@@ -38,13 +40,10 @@ const Layout: FC<any> = ({children, title, tags, description, imageUrl, url}: La
 
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <header>
-                <h1>Your Header section</h1>
-            </header>
+            <Header />
+            <button className="btn btn-success">kjkj</button>
             <main>{children}</main>
-            <footer><h2>
-                Footer Section
-            </h2></footer>
+            <Footer />
         </div>
     )
 };

@@ -2,7 +2,8 @@ import React from "react";
 import type { AppProps } from 'next/app'
 import store from "../redux/store";
 import {createWrapper} from "next-redux-wrapper";
-import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/style.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
