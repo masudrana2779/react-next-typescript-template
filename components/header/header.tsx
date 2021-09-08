@@ -18,8 +18,8 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div className="categoryDropdown">
-                                    <Dropdown>
-                                        <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                    <Dropdown className={'dropdowns'}>
+                                        <Dropdown.Toggle className={'dropdownBtn'} id="dropdown-basic">
                                             Dropdown Button
                                         </Dropdown.Toggle>
 

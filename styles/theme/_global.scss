@@ -1,0 +1,18 @@
+.ProductWrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftSiteBarWrap {
+  position: sticky;
+  top: 78px;
+  float: left;
+  width: 240px;
+  background: #ddd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
